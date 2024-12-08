@@ -5,7 +5,7 @@ const questions = [
     answer: 1
   },
   {
-    question: "¿Cuál es el metodo de cotencion creado para los UE?",
+    question: "¿Cuál es el metodo de cotencion creado para los Ultraentes?",
     options: ["El repelente", "La Enteball", "la Ultraball"],
     answer: 1
   },
@@ -20,7 +20,7 @@ const questions = [
     answer: 0
   },
   {
-    question: "¿Cuál es la region en la que aparecieron los UE?",
+    question: "¿Cuál es la region en la que aparecieron los Ultraentes?",
     options: ["Galar", "Kalos", "Alola"],
     answer: 2
   }
