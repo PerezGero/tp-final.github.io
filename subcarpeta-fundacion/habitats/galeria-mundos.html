@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../style/color.css">
+  <title>Galería de Mundos</title>
+</head>
+<body>
+  <div class="caja">
+    <header>
+      <br>
+      <img src="../../img/Logopng.png" width="480" alt="Logo de la Fundación Æther">
+
+      <div class="navegador">
+        <ul>
+          <li><a href="../../index.html" class="btn btn-secondary btn-lg">La fundación</a></li>
+        </ul>
+      </div>
+      <div class="navegador">
+        <ul>
+          <li><a href="../base-aether.html" class="btn btn-dark">Base principal</a></li>
+          <li><a href="../desarrollo.html" class="btn btn-dark">Tecnología</a></li>
+          <li><a href="../ultra-umbrales.html" class="btn btn-dark">Ultraumbrales</a></li>
+          <li><a href="../unidad-ultra.html" class="btn btn-dark">Unidad Ultra</a></li>
+          <li><a href="../ultra-entes.html" class="btn btn-dark">UE</a></li>
+          <li><a href="../pasantia-aether.html" class="btn btn-dark">Pasantías</a></li>
+        </ul>
+      </div>
+      <div class="navegador">
+        <ul>
+          <li><a href="galeria-mundos.html" class="btn btn-light">Galería de los Ultra hábitats</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="contenedor">
+      <section class="columnas">
+        <article>
+          <img src="../../img/fundacion.png" width="200" alt="Logo de la fundación Aether" class="responsive-img">
+        </article>
+        <article>
+          <h2><img src="../../img/minilogo.png" alt="Logo pequeño de la fundación"> <ins> Ultra hábitats </ins><img src="../../img/minilogo.png" alt="Logo pequeño de la fundación"></h2>
+          <br>
+          <p>En esta página podrás ver todos los hábitats visitados por la fundación y los Ultraguardianes en sus viajes al Ultraespacio.</p>
+          <br>
+          <button id="botonAleatorio" class="btn btn-secondary btn-lg">Mostrar obra aleatoria</button><br>
+          <br>
+          <div id="contenido">
+            <img id="imagenAleatoria" src="anonymous" alt="Imagen aleatoria" width="500" class="image-with-border"><br>
+            <p id="textoAleatorio"></p>
+          </div>
+        </article>
+        <article>
+          <img src="../../img/fundacion.png" width="200" alt="Logo de la fundación Aether" class="responsive-img" id="oculto">
+        </article>
+      </section>
+    </div>
+
+    <footer>Diseñador de la página web de la fundación <a href="creador.html" class="btn btn-outline-dark">Perez Gerónimo</a></footer>
+  </div>
+  <script src="../../js/fotos.js"></script>
+</body>
+</html>
