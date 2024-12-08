@@ -61,12 +61,6 @@ border-radius: 20%;
 	display: flex;
 	justify-content: center;
 }
-.image-with-border {
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    
-}
 
 #contenido {
     text-align: center;
