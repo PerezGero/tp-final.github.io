@@ -10,7 +10,13 @@ body {
 	width: 100%;
 	max-width: 480px;
 	background: rgba(255, 255, 255, 0.8);
-
+}
+.img-responsive{
+	width: 75%;
+}
+#imagenAleatoria{
+	display: none;
+	width: 75%;
 }
 .navegador {
     display: flex;
