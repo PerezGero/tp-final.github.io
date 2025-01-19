@@ -11,7 +11,7 @@ function enviarCorreo() {
       }
 
       // Confirmación de envío al precionar el boton de "enviarCorreo" con un alert de que el email fue enviado.
-      alert("El correo a sido enviado");
+      alert("Para validar el correo tocar 'Aceptar' y realizar el Captcha");
       return true;
     }
     
