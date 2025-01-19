@@ -5,6 +5,7 @@ body {
 	background-color: lightblue;
 	background: url(../img/Fondo.jpg);
 	text-align: center;
+	padding: 20px;
 }
 .caja {
 	width: 100%;
